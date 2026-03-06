@@ -1107,7 +1107,7 @@ const MOCK_USERS = [
                                         disabled={!App.currentUserId}
                                     >
                                         {typeof Heart === 'string'
-                                            ? <span>{isLiked ? '❤️' : '🤍'}</span>
+                                            ? <span>{isLiked ? '🌹' : '🖤'}</span>
                                             : <Heart size={isMainFocus ? 20 : 16} fill={isLiked ? 'currentColor' : 'none'} className={isLiked ? 'text-red-500' : ''} />
                                         }
                                         <span>{sourcePostForReactions.likes?.length > 0 ? sourcePostForReactions.likes.length : ''}</span>
@@ -2391,6 +2391,7 @@ const App = () => {
 
 </body>
 </html>
+
 
 
 
